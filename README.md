@@ -1,34 +1,51 @@
-# 📖 StoryForge — Collaborative Story Building Platform
+# 📖 StoryForge — Collaborative Story Publishing Platform
 
-StoryForge is a full-stack web application for collaborative story writing with real-time editing, secure authentication, and rich story navigation.
+StoryForge is a full-stack platform that empowers users to co-create fiction with real-time collaboration. Writers can build branching narratives together, explore community stories, and manage their profile — all in one smooth experience.
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS, Axios
-- **Backend**: Java, Spring Boot, MySQL, JWT
-- **Real-Time**: WebSockets (STOMP over SockJS)
+| Layer         | Technologies Used                                                 |
+|--------------|--------------------------------------------------------------------|
+| Frontend      | React.js, Tailwind CSS, Axios                                     |
+| Backend       | Spring Boot (Java), MySQL, JWT, DTO-based architecture            |
+| Real-Time     | WebSockets (STOMP over SockJS)                                    |
+| Auth & APIs   | JWT-based authentication, REST APIs                               |
 
 ---
 
 ## 🔗 Repositories
 
-- 🔸 [Frontend Repo](https://github.com/yourusername/storyforge-frontend)
-- 🔸 [Backend Repo](https://github.com/yourusername/storyforge-backend)
+- 💻 **Frontend Repo**: [storyforge-ui](https://github.com/arpitaa-29/storyforge-ui)
+- 🛠️ **Backend Repo**: [storyforge-backend](https://github.com/arpitaa-29/storyforge-backend)
 
 ---
 
 ## 🚀 Key Features
 
-- Real-time collaborative editing via WebSockets
-- Secure authentication and protected routes
-- Explore page with search, genre tags, and pagination
-- Profile management with avatar upload
-- Modular, scalable architecture (DTOs, layered backend)
+- 🔐 JWT-based user registration, login, and profile management
+- ✍️ Create, edit, and collaborate on story chapters in real time
+- 📚 Explore stories with search, genre filters, pagination, and reader mode
+- 🧱 Clean backend architecture (Controller–Service–Repository–DTO)
+- 🖼️ Avatar upload and user profile editing
+- ⚙️ Global error handling, database optimization, and scalability
 
 ---
 
+## 📸 Screenshots
+
+> (You can add screenshots of the dashboard, explore page, editor, etc.)
+
+---
+
+## 🛠️ Running the Project
+
+### 🧩 Backend Setup
+
+1. Clone the backend repo:
+   ```bash
+   git clone https://github.com/arpitaa-29/storyforge-backend
 
 
 
