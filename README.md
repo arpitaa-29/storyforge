@@ -46,38 +46,47 @@ StoryForge is a full-stack platform that empowers users to co-create fiction wit
 1. Clone the backend repo:
    ```bash
    git clone https://github.com/arpitaa-29/storyforge-backend
-Set up your application.properties with:
+2. Set up your application.properties with:
+
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/storyforge
+   spring.datasource.username=your_user
+   spring.datasource.password=your_password
 
 
-spring.datasource.url=jdbc:mysql://localhost:3306/storyforge
-spring.datasource.username=your_user
-spring.datasource.password=your_password
-Run the app via your IDE or:
+3. Run the app via your IDE or:
+
+   ```bash
+   ./mvnw spring-boot:run
 
 
-./mvnw spring-boot:run
-🌐 Frontend Setup
-Clone the frontend repo:
+### 🌐 Frontend Setup
+1. Clone the frontend repo:
+
+   ```bash
+   git clone https://github.com/arpitaa-29/storyforge-ui
 
 
-git clone https://github.com/arpitaa-29/storyforge-ui
-Install dependencies:
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3. Start the app:
+
+   ```bash
+   npm start
 
 
-npm install
-Start the app:
+### ✨ Future Enhancements
+  - Google/GitHub OAuth
 
+   - Commenting on stories
 
-npm start
-✨ Future Enhancements
-Google/GitHub OAuth
+   - Story drafts and publishing workflows
 
-Commenting on stories
+   - Reactions and bookmarks
 
-Story drafts and publishing workflows
-
-Reactions and bookmarks
-
-👩‍💻 Author
-Arpita 
+### 👩‍💻 Author
+ Arpita 
 
